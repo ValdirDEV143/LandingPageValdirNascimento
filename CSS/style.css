@@ -59,6 +59,14 @@ header {
     font-weight: 600;
     cursor: default;
 }
+
+.nav a {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+}
+
 .nav a:hover {
     color: var(--main-color)
 }
@@ -78,8 +86,6 @@ header {
     color: var(--text-color);
     padding: 0.5rem 1rem;
     transition: 0.4s;
-
-    /* border: solid 1px var(--color-02) TEST */
 }
 
 .nav a:hover, .nav-responsive a:hover {
@@ -89,8 +95,6 @@ header {
 section {
     min-height: 100vh;
     padding: 6rem 6rem 2rem;
-
-    /* border: solid 1px var(--color-02) */
 }
 
 span {
@@ -111,7 +115,7 @@ span {
 }
 
 .about-img {
-    border-right: solid 0.6rem var(--main-color);
+    border-left: solid 0.6rem var(--main-color);
     border-bottom: solid 0.6rem var(--main-color);
     border-image: linear-gradient(225deg transparent 50%, blue); 
 }
