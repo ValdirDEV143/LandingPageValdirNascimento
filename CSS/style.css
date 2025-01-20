@@ -84,3 +84,27 @@ span {
     color: var(--main-color);
 }
 
+.home, .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-img {
+    border-right: solid 0.6rem var(--main-color);
+    border-bottom: solid 0.6rem var(--main-color);
+    border-image: linear-gradient(135deg transparent 50%, blue); 
+}
+
+.about-img {
+    border-right: solid 0.6rem var(--main-color);
+    border-bottom: solid 0.6rem var(--main-color);
+    border-image: linear-gradient(225deg transparent 50%, blue); 
+}
+.home-img img, .about-img img {
+    width: 100%;
+}
+
+
+
