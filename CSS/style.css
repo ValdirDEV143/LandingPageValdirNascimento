@@ -164,6 +164,14 @@ span {
     justify-content: space-evenly;
 }
 
+.services-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 25rem;
+    margin-bottom: 1rem;
+}
+
 .services-container .services-box {
     padding: 2rem 1rem 2.5rem;
     border-radius: 1.2rem;
@@ -173,13 +181,7 @@ span {
     transition: 0.5s ease;
 }
 
-.services-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 25rem;
-    margin-bottom: 1rem;
-}
+
 
 
 
@@ -445,9 +447,7 @@ footer {
         width: 100%;
     }
 
-    header {
-        background-color: var(--color-01); 
-    }
+    
 }
 
 /* Small (sm): Smartphone (Landscape) */
@@ -462,9 +462,7 @@ footer {
     }
 
 
-    header {
-        background-color: var(--color-02); 
-    }
+    
 
 }
 
@@ -506,9 +504,7 @@ footer {
         width: 49%;
     }
 
-    header {
-        background-color: var(--color-03); 
-    }
+    
 
 }
 
@@ -525,9 +521,7 @@ footer {
     }
         
 
-    header {
-        background-color: var(--color-04); 
-    }
+    
 
 }
 
@@ -549,9 +543,7 @@ footer {
         grid-template-columns: auto auto auto;
     }
 
-    header {
-        background-color: var(--color-05); 
-    }
+    
 
 }
 
